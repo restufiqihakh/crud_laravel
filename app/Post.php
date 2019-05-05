@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     protected $fillable = [
-    'judul',
-    'penerbit',
-    'tahun_terbit',
-    'pengarang'
-  ];
+        'judul',
+        'pengarang',
+        'penerbit',
+        'tahun_terbit'
+    ];
 }
